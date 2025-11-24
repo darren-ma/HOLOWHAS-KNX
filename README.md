@@ -47,11 +47,11 @@ KNX uses Group Addresses for logical communication.
 1/0/2 → Living Room Zone Volume
 2/0/1 → Bedroom Zone On/Off
 2/0/2 → Bedroom Zone Volume
-3. Create new GA:
+4. Create new GA:
 - Click `New Group Address`
 - Enter name (e.g., `LivingRoom_Zone_OnOff`)
 - Select type (Switch, Dimming, Percentage, etc.)
-4. Drag GA to the corresponding device function in the ETS topology
+5. Drag GA to the corresponding device function in the ETS topology
 
 ### 4. Download Configuration
 1. Connect the device to the KNX bus  
