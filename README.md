@@ -66,3 +66,23 @@ KNX uses Group Addresses for logical communication.
 ---
 
 ## Recommended GA Naming Convention
+Main Group 1: Lighting
+1/0/1 - Living Room On/Off
+1/0/2 - Living Room Volume
+
+Main Group 2: HVAC / Audio
+2/0/1 - Bedroom On/Off
+2/0/2 - Bedroom Volume
+
+```bash
+
+ Clear, descriptive names simplify maintenance and future expansion  
+- Follow Area.Line.Sub format for scalability  
+
+---
+
+## Notes
+
+- Always back up your ETS project (`.knxproj`) after changes  
+- Ensure devices are properly powered and connected to the KNX bus  
+- GA read/write depends on correct type matching and proper physical address assignment
