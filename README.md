@@ -88,3 +88,12 @@ Main Group 2: HVAC / Audio
 - Ensure devices are properly powered and connected to the KNX bus  
 - GA read/write depends on correct type matching and proper physical address assignment
 ```
+---
+
+## Contributing
+Contributions are welcome! Please see CONTRIBUTING.md (coming soon) for guidelines.
+
+---
+
+## License
+This project is licensed under the MIT License. See LICENSE for details.
